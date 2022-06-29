@@ -18,7 +18,18 @@ jobs:
         node-version: 16
         cache: 'npm'
 
-    - run: |
+    - name: export
+      run: |
         npm install
         npm run validate
         npm run build
+
+    - name: deploy to hosting
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        port: ${{ secrets.PORT }}
+        key: ${{ secrets.KEY }}
+        source: "index.html"
+        target: ".cv"
