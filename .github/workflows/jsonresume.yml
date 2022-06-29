@@ -18,13 +18,13 @@ jobs:
         node-version: 16
         cache: 'npm'
 
-    - name: export
+    - name: Export resume to html
       run: |
         npm install
         npm run validate
         npm run build
 
-    - name: deploy to hosting
+    - name: Deploy to the hosting
       uses: appleboy/scp-action@master
       with:
         host: ${{ secrets.HOST }}
@@ -32,4 +32,16 @@ jobs:
         port: ${{ secrets.PORT }}
         key: ${{ secrets.KEY }}
         source: "index.html"
-        target: ".cv"
+        target: "cv"
+
+    - run: |
+        mkdir public
+        cp index.html public/
+
+    - name: Deploy to GitHub Pages
+      uses: crazy-max/ghaction-github-pages@v3
+      with:
+        target_branch: gh-pages
+        build_dir: public
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
