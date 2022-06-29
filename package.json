@@ -1,7 +1,7 @@
 {
   "scripts": {
     "validate": "resume validate",
-    "build": "resume export --theme jsonresume-theme-slickoverflow public/index.html",
+    "build": "resume export --theme jsonresume-theme-slickoverflow index.html",
     "deploy": "check-env REMOTE; scp -r public/* $REMOTE"
   },
   "dependencies": {
