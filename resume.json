@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "theme": "slickoverflow"
+  },
+  "basics": {
+    "name": "Eugene Bakisov",
+    "label": "Web Developer",
+    "image": "https://avatars.githubusercontent.com/u/54821390?v=4",
+    "summary": "I've been passionate about programming and tech since the high school. Participated in various competitive programming challenges. Very mindful regarding life/work balance. Eager to learn and share knowledge among colleagues. Was lucky enough to work with very talented colleagues thanks to whom I've greatly improved my soft and hard skills throughout the years.",
+    "website": "https://cv.repl-driven.dev",
+    "email": "eugene.bakisov@gmail.com",
+    "location": {
+      "city": "Saint Petersburg",
+      "countryCode": "RU"
+    },
+    "profiles": [
+      {
+        "url": "https://github.com/eugenebakisov",
+        "username": "eugenebakisov",
+        "network": "github"
+      }
+    ]
+  },
+  "education": [
+    {
+      "endDate": "2013-08-01",
+      "startDate": "2008-09-01",
+      "area": "Software Engineering (incomplete)",
+      "studyType": "Bachelors",
+      "institution": "Saint Petersburg State University"
+    }
+  ],
+  "references": [
+    {
+      "reference": "It is exciting to work with Eugene, because he is a truly enthusiastic developer: he is always full of ideas, determined to get things done and passionate about the tech he is interested in. He added emotional solidity to the team by being easygoing and understanding. I am happy to work with him again, If I have a chance.",
+      "name": "Kirill Grushetski, Software Architect at ONEiO."
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "Java",
+        "Clojure",
+        "Postgres"
+      ],
+      "level": "Senior",
+      "name": "Backend"
+    },
+    {
+      "keywords": [
+        "ClojureScript",
+        "React",
+        "Reagent",
+        "Re-frame"
+      ],
+      "level": "Middle",
+      "name": "Frontend"
+    },
+    {
+      "keywords": [
+        "Docker",
+        "CI/CD Pipelines",
+        "Metrics",
+        "Linux"
+      ],
+      "level": "Middle",
+      "name": "Devops"
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "CS188.1x: Artificial Intelligence",
+      "date": "2012-11-19",
+      "issuer": "BerkeleyX",
+      "url": "https://s3.amazonaws.com/verify.edx.org/downloads/94a09b87259546cc92d236558a2ce9ad/distinction-letter.pdf"
+    }
+  ],
+  "work": [
+    {
+      "summary": "Developing back-end and front-end for San Francisco based solar energy startup.",
+      "website": "https://freshcodeit.com/",
+      "pinned": true,
+      "name": "FreshCode",
+      "position": "Clojure Developer",
+      "startDate": "2021-09-01"
+    },
+    {
+      "summary": "Developing a service platform for companies involved in ARRIVAL's vehicles lifecycle (health monitoring, repairing, technician training and certification, etc). Performed numerous proofs of concepts with various impact on architecture.",
+      "website": "http://arrival.com",
+      "name": "Arrival",
+      "position": "Clojure Developer",
+      "startDate": "2021-01-01",
+      "endDate": "2021-06-01"
+    },
+    {
+      "highlights": [
+        "Seamlessly migrated a customer facing service to a new logistics API.",
+        "Participated in the design and implementation of a new B2B2C supply delivery chain.",
+        "Led major improvement (up to x10 speedup) of workflow for the third-party suppliers."
+      ],
+      "summary": "Developing and maintaining a dozen logistics services for the e-commerce marketplace beru.ru (approx 15M customers monthly)",
+      "website": "www.yandex.ru",
+      "name": "Yandex",
+      "position": "Java Developer",
+      "startDate": "2019-04-01",
+      "endDate": "2020-12-01"
+    },
+    {
+      "highlights": [
+        "Improved project's reliability, performance and time to production.",
+        "Leaded successful project's migration from Java EE to Spring Boot",
+        "Migrated from bare metal to SaaS platform",
+        "Mentored new developers"
+      ],
+      "summary": "Outsourcing a web application which can be summarized as 'CI/CD for batch developers' for a Swiss reinsurance company.",
+      "website": "http://www.sidenis.ru/",
+      "name": "Sidenis",
+      "position": "Java Developer",
+      "startDate": "2015-11-01",
+      "endDate": "2019-08-01"
+    },
+    {
+      "summary": "Developing and maintaining computer vision systems for active robotic agents, analysis of video input streams. Researching and applying solutions to the 3D reconstruction problem. Active usage of OpenCV library and C#/Python languages.",
+      "website": "",
+      "name": "Center of Microelectronics and Diagnostics",
+      "position": "Technician",
+      "startDate": "2013-10-01",
+      "endDate": "2015-11-01"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Pet project",
+      "description": "",
+      "highlights": [
+        "First time managing my own domain name and infrastructure"
+      ],
+      "keywords": [
+        "Jetty",
+        "Clojure",
+        "Integrant + Aero",
+        "ClojureScript",
+        "Reagent",
+        "Re-frame",
+        "Tailwindcss",
+        "Docker"
+      ],
+      "entity": "Entity",
+      "type": "application"
+    },
+    {
+      "name": "Java + JQuery",
+      "description": "",
+      "highlights": [
+      "My highest amount of refactored code in a single project"],
+      "keywords": [
+        "WebSphere",
+        "JavaEE",
+        "JAX-RS / JAX-WS",
+        "EJB",
+        "Hibernate",
+        "DB2",
+        "JQuery",
+        "Jenkins"
+      ],
+      "entity": "Entity",
+      "type": "application"
+    },
+    {
+      "name": "Java + Angular",
+      "description": "",
+      "highlights": [
+        "Own solution for describing a cross-environmental business logic",
+        "Own library for a better integration with specific third-party platform",
+        "API specification via RAML"
+      ],
+      "keywords": [
+        "Spring Boot",
+        "Hibernate",
+        "CloudFoundry",
+        "DB2",
+        "Oracle",
+        "RAML",
+        "Angular",
+        "RxJS",
+        "Bamboo + Pipelines",
+        "Selenium Grid"
+      ],
+      "entity": "Entity",
+      "type": "application"
+    },
+    {
+      "name": "Clojure + ClojureScript",
+      "description": "",
+      "highlights": [
+        "Large number of client specific integration schemes",
+        "In-house workflow engine library"
+      ],
+      "keywords": [
+        "Clojure",
+        "Mount",
+        "Postgres",
+        "Heroku",
+        "SaleForce",
+        "Oracle",
+        "ClojureScript",
+        "Reagent",
+        "Re-frame",
+        "MaterialUI",
+        "Netlify",
+        "LogRocket",
+        "DocuSign"
+      ],
+      "entity": "Entity",
+      "type": "application"
+    },
+    {
+      "name": "Clojure + ClojureScript",
+      "description": "",
+      "highlights": [
+        "Monolithic back-end with configurable parts of functionality",
+        "Own UI Kit"
+      ],
+      "keywords": [
+        "Clojure",
+        "Datomic",
+        "Datalog",
+        "CLIPS",
+        "ClojureScript",
+        "Re-frame",
+        "Reagent"
+      ],
+      "roles": [
+        "Java Developer"
+      ],
+      "entity": "Entity",
+      "type": "application"
+    },
+    {
+      "name": "Java + React",
+      "description": "",
+      "highlights": [
+        "Microservice Architecture",
+        "High throughput and availability",
+        "Saga Orchestration",
+        "Multiple Data Centers"
+      ],
+      "keywords": [
+        "Spring Boot",
+        "Protobuf",
+        "Postgres",
+        "MongoDB",
+        "Apache Kafka*",
+        "Clickhouse",
+        "DynamoDB*",
+        "Quartz",
+        "Grafana",
+        "MySQL",
+        "React",
+        "Ratom"
+      ],
+      "roles": [
+        "Java Developer"
+      ],
+      "entity": "Entity",
+      "type": "application"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Tinkering",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Technologies"
+    },
+    {
+      "name": "Emacs"
+    },
+    {
+      "name": "Videogames"
+    }
+  ]
+}
